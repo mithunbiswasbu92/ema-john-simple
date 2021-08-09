@@ -20,10 +20,8 @@ const Shipment = () => {
       })
       .then(res => res.json())
       .then(data => {
-        if(data){
           processOrder();
           alert('your order placed successfully');
-        }
       })
   };
   console.log(watch("example")); // watch input value by passing the name of it
